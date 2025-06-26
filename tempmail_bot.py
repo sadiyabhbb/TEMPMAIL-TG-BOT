@@ -13,7 +13,7 @@ logging.getLogger(__name__).addHandler(logging.StreamHandler())
 # ***সতর্কতা: এটি নিরাপত্তা ঝুঁকির কারণ হতে পারে। উৎপাদনের জন্য এনভায়রনমেন্ট ভেরিয়েবল ব্যবহার করুন।***
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE" # <--- এখানে আপনার আসল বট টোকেনটি বসান
 
-if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+if not BOT_TOKEN or BOT_TOKEN == "8035083791:AAF9m2iDWqhqi4UGoHn5EP1_z3znpRSdsa4":
     logging.error("BOT_TOKEN has not been set or is still the placeholder. Please update it.")
     exit(1)
 
